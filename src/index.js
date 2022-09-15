@@ -8,8 +8,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-      {/*<AppCounter counter={0}/>*/}
-      <AppForm/>
+      <AppCounter counter={0}/>
+      {/*<AppForm/>*/}
 
   </React.StrictMode>,
   document.getElementById('root')

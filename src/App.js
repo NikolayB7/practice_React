@@ -1,5 +1,6 @@
 import {Component} from 'react'
 import './App.css';
+import CurrencyConverter from "./components/CurrencyConverter/CurrencyConverter";
 
 class App extends Component {
     constructor(props) {
@@ -38,13 +39,16 @@ class App extends Component {
         const {currentCounter} = this.state
         return (
             <div className="app">
-                <div className="counter">{currentCounter}</div>
-                <div className="controls">
-                    <button onClick={this.counterUp}>INC</button>
-                    <button onClick={this.counterDown}>DEC</button>
-                    <button onClick={this.counterRandom}>RND</button>
-                    <button onClick={this.counterReset}>RESET</button>
-                </div>
+                {/*<div className="counter">{currentCounter}</div>*/}
+
+                {/*<div className="controls">*/}
+                {/*    <button onClick={this.counterUp}>INC</button>*/}
+                {/*    <button onClick={this.counterDown}>DEC</button>*/}
+                {/*    <button onClick={this.counterRandom}>RND</button>*/}
+                {/*    <button onClick={this.counterReset}>RESET</button>*/}
+                {/*</div>*/}
+
+
             </div>
         )
     }
